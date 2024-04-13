@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0px;
+  font-family: arial;
+  border: border-box;
+}
+.navbar {
+  background-color: #000000;
+}
+.nav-logo {
+  height: 67px;
+  width: 90px;
+}
+.logo {
+  background-image: url("../images/ESB-logo.jpeg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.fd {
+  margin-top: 80px !important;
+  height: 25rem;
+}
+.img-fluid {
+  height: 200px !important;
+  width: 200px;
+}
+
+.card-body {
+  height: 245px !important;
+}
+p {
+  font-size: 1rem;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}

@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>faltu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="faltu.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moving Sentence with Bootstrap Alert</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom CSS for moving animation */
+      @keyframes moveText {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-140%);
+        }
+      }
+      .moving-text {
+        animation: moveText 25s linear infinite;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid mt-5 fixed-bottom">
+      <div class="row">
+        <!-- Moving sentence from right to left -->
+        <div class="col-md-12" style="background-color: #f2f2f2">
+          <p class="moving-text mt-3">
+            As per RBI guidelines, you are requested to register your cheque
+            issuance details through Positive Pay for value of 50,000/- & above.
+            Please contact <strong> ESB </strong> at the following Toll free
+            number 1800 2080, to register the details of cheque for value of Rs
+            50,000/- & above whenever issued by you.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS (optional, if you want to use Bootstrap JavaScript features) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

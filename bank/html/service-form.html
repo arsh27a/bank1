@@ -1,0 +1,86 @@
+<div
+  class="container mt-5"
+  style="
+    border: 0.5px solid;
+    padding: 2rem;
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  "
+>
+  <div class="row">
+    <div class="col-md-12">
+      <form id="dataForm">
+        <h2 class="text-center">Apply Now</h2>
+        <p>
+          We appreciate your interest in ESB. Simply leave your details below to
+          get a call back from our customer care.
+        </p>
+        <!-- text input -->
+        <div class="form-group" action="dbcustomer-care.php" method="post">
+          <label for="name"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            required
+            placeholder="Enter Name"
+          />
+        </div>
+        <!-- mobile -->
+        <div class="form-group">
+          <label for="mobile-no"></label>
+          <input
+            type="tel"
+            class="form-control"
+            id="mobile-no"
+            required
+            placeholder="Enter Mobile No."
+          />
+        </div>
+        <!-- email -->
+        <div class="form-group">
+          <label for="email"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="email"
+            required
+            placeholder="Enter Email ID"
+          />
+        </div>
+        <!-- pincode -->
+        <div class="form-group">
+          <label for=" pincode"></label>
+          <input
+            type="tel"
+            class="form-control"
+            id="pincode"
+            required
+            placeholder="Enter Pincode"
+          />
+        </div>
+        <!-- textbox -->
+        <div class="form-group">
+          <label for="text-box"></label>
+          <input
+            type="text-area"
+            class="form-control"
+            id="text-box"
+            required
+            placeholder="Remark"
+          />
+        </div>
+
+        <!-- signup button -->
+        <input
+          type="submit"
+          value="Submit"
+          onclick="saveData()"
+          style="margin-top: 20px"
+          class="btn btn-outline-dark btn-block"
+        />
+      </form>
+    </div>
+  </div>
+</div>
